@@ -4,7 +4,7 @@ import ProgressBar from './ProgressBar'
 
 const AboutSection = () => {
     return (
-        <section id="About">
+        <section id="About" className="pb-20">
             <div className="grid grid-cols-1 md:grid-cols-12 pb-8 mb-8">
                 <div className="col-span-12 place-self-center text-center md:text-left ">
                     <h2 className="font-extrabold text-4xl py-20 my-8 flex md:py-8">About Me</h2>
