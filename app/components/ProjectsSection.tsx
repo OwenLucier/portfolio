@@ -14,7 +14,7 @@ const projectData = [
 
 const ProjectsSection = () => {
     return (
-        <section id="projects">
+        <section id="Projects">
             <h2 className="font-extrabold text-4xl py-2 mb-8 flex justify-center">My Projects</h2>
 
             <div className="grid md:grid-cols-3 gap-8 md:gap-12">

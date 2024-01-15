@@ -4,7 +4,15 @@ import Image from 'next/image'
 import { TypeAnimation } from 'react-type-animation';
 import { FaArrowDown } from "react-icons/fa6";
 
+/*handleScroll is a function that accepts an event and sectionId parameter and scrolls to the sectionId element.
+The event,preventDefault stops the default HTML tags action (in this case jumping to the chosen section), and replaces it with the scroll into view method */
+const handleScroll = (event: React.MouseEvent<HTMLButtonElement>, sectionId: string) => {
+    event.preventDefault();
+    const target = document.querySelector(`#${sectionId}`);
+    target?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+};
 
+//Hero Section is a React functional component that displays the hero section of the website
 const HeroSection = () => {
     return (
         <section>
@@ -53,11 +61,13 @@ const HeroSection = () => {
                 </div>
                 
             </div>
-            <a href="#About" className="hidden md:flex h-60 justify-center my-8 py-40">
-            <button className="hidden md:flex w-[60px] h-[60px] rounded-full bg-gradient-to-r from-emerald-500 to-emerald-700 hover:bg-slate-200 text-white animate-bounce">
-            <FaArrowDown className=" translate-x-1/3 translate-y-1/3 text-4xl"/>
+
+            <div className="hidden md:flex h-60 justify-center my-8 py-40 duration-300">
+            <button onClick={(event) => handleScroll(event, "About")} className="hidden md:flex w-[60px] h-[60px] justify-center rounded-full bg-gradient-to-r from-emerald-500 to-emerald-700 hover:bg-slate-200 text-white animate-bounce">
+            <FaArrowDown className="translate-y-1/3 text-4xl"/>
             </button>
-            </a>
+            </div>
+            
         </section>
     )
 }
