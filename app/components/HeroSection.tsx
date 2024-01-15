@@ -53,6 +53,11 @@ const HeroSection = () => {
                 </div>
                 
             </div>
+            <a href="#About" className="hidden md:flex h-60 justify-center my-8 py-40">
+            <button className="hidden md:flex w-[60px] h-[60px] rounded-full bg-gradient-to-r from-emerald-500 to-emerald-700 hover:bg-slate-200 text-white animate-bounce">
+            <FaArrowDown className=" translate-x-1/3 translate-y-1/3 text-4xl"/>
+            </button>
+            </a>
         </section>
     )
 }
