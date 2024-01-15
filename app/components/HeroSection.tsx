@@ -4,12 +4,13 @@ import Image from 'next/image'
 import { TypeAnimation } from 'react-type-animation';
 import { FaArrowDown } from "react-icons/fa6";
 import handleScroll from './SmoothScroll';
+import { Container } from './Container';
 
 //Hero Section is a React functional component that displays the hero section of the website
 const HeroSection = () => {
     return (
         <section className="flex flex-col min-h-screen justify-center">
-            <div className="container px-4 lg:max-w-5xl mx-auto">
+            <Container classes="">
                 <div className="grid grid-cols-1 md:grid-cols-12">
                     <div className="col-span-7 place-self-center text-center md:text-left ">
                         <h1 className="text-white mb-6 text-4xl sm:text-4xl lg:text-6xl font-extrabold">
@@ -56,7 +57,7 @@ const HeroSection = () => {
                     </div>
                     
                 </div>
-            </div>
+            </Container>
 
             <div className="hidden md:flex justify-center duration-300 absolute bottom-0 left-0 right-0 ">
                 <button onClick={(event) => handleScroll(event, "About")} className="hidden md:flex w-[60px] h-[60px] justify-center rounded-full bg-transparent border-white text-white animate-bounce">
