@@ -9,6 +9,27 @@ const projectData = [
         imgUrl: "/QxProject.png",
         tags: ["UX Design", "UI Design", "Web Design"]
     },
+    {
+        id: 1,
+        title: "Project 1",
+        description: "A complex design project for managing cryptographic assets.",
+        imgUrl: "/QxProject.png",
+        tags: ["UX Design", "UI Design", "Web Design"]
+    },
+    {
+        id: 1,
+        title: "Project 1",
+        description: "A complex design project for managing cryptographic assets.",
+        imgUrl: "/QxProject.png",
+        tags: ["UX Design", "UI Design", "Web Design"]
+    },
+    {
+        id: 1,
+        title: "Project 1",
+        description: "A complex design project for managing cryptographic assets.",
+        imgUrl: "/QxProject.png",
+        tags: ["UX Design", "UI Design", "Web Design"]
+    },
    
 ];
 

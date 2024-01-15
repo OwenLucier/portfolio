@@ -6,10 +6,6 @@ import { FaHamburger } from "react-icons/fa";
 import { IoIosCloseCircle } from "react-icons/io";
 import MenuOverlay from './MenuOverlay';
 
-//<IoIosCloseCircle />
-//<FaHamburger />
-
-
 //Array of objects that contain the title and href for each link 
 const navLinks = [
     { title: 'About', href: 'About' },
@@ -53,7 +49,7 @@ const Navbar = () => {
     return (
         <nav className="fixed top-0 left-0 right-0 z-10 bg-[#121212]">
             <div className="flex flex-wrap items-center justify-between mx-auto px-8 py-3">
-                <Link href="/" className="text-2xl md:text-4xl text-white font-semibold"> LOGO </Link>
+                <Link href="/" className="text-2xl md:text-4xl text-white font-semibold"> OL </Link>
                 <div className="mobile-menu block md:hidden">
                     {
                         !navbarOpen ? (
