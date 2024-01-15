@@ -9,16 +9,15 @@ type ProgressBarProps = {
 
 const ProgressBar = ({ progress, href }: ProgressBarProps) => {
     return (
-        <div className="grid grid-cols-2 ">
-
-            <div className="flex justify-between w-30 h-6 rounded-full bg-gray-900">
-                <div className="progress h-full w-1/2 rounded-full bg-emerald-500">
-
-                </div>
-            </div>
-            <div className="flex">
+        <div className="flex">
+            <div className="flex-none -translate-y-3 pr-5">
                 <Image src={href.toString()} width={50} height={50} alt="icon" />
             </div>
+            <div className="h-6 rounded-full grow bg-gray-900">
+                <div className="progress h-full rounded-full bg-emerald-500" style={{ width: `${progress}%` }}>
+                </div>
+            </div>
+
         </div>
     )
 }
