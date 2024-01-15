@@ -3,14 +3,7 @@ import React from 'react'
 import Image from 'next/image'
 import { TypeAnimation } from 'react-type-animation';
 import { FaArrowDown } from "react-icons/fa6";
-
-/*handleScroll is a function that accepts an event and sectionId parameter and scrolls to the sectionId element.
-The event,preventDefault stops the default HTML tags action (in this case jumping to the chosen section), and replaces it with the scroll into view method */
-const handleScroll = (event: React.MouseEvent<HTMLButtonElement>, sectionId: string) => {
-    event.preventDefault();
-    const target = document.querySelector(`#${sectionId}`);
-    target?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-};
+import handleScroll from './SmoothScroll';
 
 //Hero Section is a React functional component that displays the hero section of the website
 const HeroSection = () => {
@@ -34,7 +27,8 @@ const HeroSection = () => {
                                 'a Web Designer',
                                 1000,
                                 'a Student',
-                                1000
+                                1000,
+            
                             ]}
                             wrapper="span"
                             speed={30}

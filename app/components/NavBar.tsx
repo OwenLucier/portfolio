@@ -12,9 +12,9 @@ import MenuOverlay from './MenuOverlay';
 
 //Array of objects that contain the title and href for each link 
 const navLinks = [
-    { title: 'About', href: '#about' },
-    { title: 'Projects', href: '#projects' },
-    { title: 'Contact', href: '#contact' },
+    { title: 'About', href: 'About' },
+    { title: 'Projects', href: 'Projects' },
+    { title: 'Contact', href: 'Contact' },
 ]
 
 const Navbar = () => {
