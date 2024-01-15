@@ -63,7 +63,7 @@ const HeroSection = () => {
             </div>
 
             <div className="hidden md:flex h-60 justify-center my-8 py-40 duration-300">
-            <button onClick={(event) => handleScroll(event, "About")} className="hidden md:flex w-[60px] h-[60px] justify-center rounded-full bg-gradient-to-r from-emerald-500 to-emerald-700 hover:bg-slate-200 text-white animate-bounce">
+            <button onClick={(event) => handleScroll(event, "About")} className="hidden md:flex w-[60px] h-[60px] justify-center rounded-full bg-transparent border-white text-white animate-bounce">
             <FaArrowDown className="translate-y-1/3 text-4xl"/>
             </button>
             </div>
