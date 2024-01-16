@@ -10,7 +10,7 @@ import { Container } from './Container';
 const HeroSection = () => {
     return (
         <section className="flex flex-col min-h-screen justify-center">
-            <Container classes="">
+            <Container>
                 <div className="grid grid-cols-1 md:grid-cols-12">
                     <div className="col-span-7 place-self-center text-center md:text-left ">
                         <h1 className="text-white mb-6 text-4xl sm:text-4xl lg:text-6xl font-extrabold">
@@ -44,7 +44,7 @@ const HeroSection = () => {
                             <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-transparent hover:bg-slate-900 text-white border border-white mt-3 ">Download CV</button>
                         </div>
                     </div>
-                    <div className="col-span-5 mt-4 lg:mt-0 justify-center pt-8 md:pt-0 md:justify-end flex">
+                    <div className="hidden md:flex col-span-5 mt-4 lg:mt-0 justify-center pt-8 md:pt-0 md:justify-end">
                         <div className="rounded-full bg-[#181818] w-[300px] h-[300px] lg:w-[400px] lg:h-[400px] relative">
                             <Image
                                 src="/hero-image.png"
