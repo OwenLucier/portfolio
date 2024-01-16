@@ -8,7 +8,7 @@ const AboutSection = () => {
         <section id="About" className="pb-20">
             <Container>
             
-            <h2 className="font-extrabold justify-center sm:justify-left text-4xl py-20 my-8 flex md:py-8">About Me</h2>
+            <h2 className="font-extrabold justify-center sm:justify-left text-4xl py-20 my-8 flex md:py-8 text-white">About Me</h2>
 
             <div className="grid grid-cols-1 md:grid-cols-12 pb-8 mb-8">
 
