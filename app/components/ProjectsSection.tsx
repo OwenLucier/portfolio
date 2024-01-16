@@ -5,30 +5,30 @@ import { Container } from './Container';
 const projectData = [
     {
         id: 1,
-        title: "Project 1",
-        description: "A complex design project for managing cryptographic assets.",
+        title: "Admin Dashboard Prototype",
+        description: "A full application prototype for managing cryptographic assets.",
         imgUrl: "/QxProject.png",
+        tags: ["UX Design", "UI Design", "Prototype"]
+    },
+    {
+       id: 2,
+        title: "Key Generation Flow Prototype",
+        description: "Prototype for key generation flow.",
+        imgUrl: "/key-flow.png",
+        tags: ["UX Design", "UI Design", "Prototype"] 
+    },
+    {
+        id: 3,
+        title: "Wilfrid Laurier Wellness Case Study",
+        description: "Research case study for Wilfrid Laurier\'s Wellness Services.",
+        imgUrl: "/grd-cover.png",
         tags: ["UX Design", "UI Design", "Web Design"]
     },
     {
-        id: 1,
-        title: "Project 1",
-        description: "A complex design project for managing cryptographic assets.",
-        imgUrl: "/QxProject.png",
-        tags: ["UX Design", "UI Design", "Web Design"]
-    },
-    {
-        id: 1,
-        title: "Project 1",
-        description: "A complex design project for managing cryptographic assets.",
-        imgUrl: "/QxProject.png",
-        tags: ["UX Design", "UI Design", "Web Design"]
-    },
-    {
-        id: 1,
-        title: "Project 1",
-        description: "A complex design project for managing cryptographic assets.",
-        imgUrl: "/QxProject.png",
+        id: 4,
+        title: "Personal Portfolio Website",
+        description: "My personal portfolio website development.",
+        imgUrl: "/portfolio.png",
         tags: ["UX Design", "UI Design", "Web Design"]
     },
    
