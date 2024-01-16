@@ -61,7 +61,7 @@ const HeroSection = () => {
 
             <div className="flex justify-center duration-300 absolute bottom-0 left-0 right-0 ">
                 <button onClick={(event) => handleScroll(event, "About")} className="flex w-[60px] h-[60px] justify-center rounded-full bg-transparent border-white text-white animate-bounce">
-                    <FaArrowDown className="-translate-y-16 text-4xl"/>
+                    <FaArrowDown className="-translate-y-8 text-4xl"/>
                 </button>
             </div>
             

@@ -38,7 +38,7 @@ const ProjectsSection = () => {
     return (
         <section id="Projects" className="pt-20">
             <Container>
-            <h2 className="font-extrabold text-4xl py-2 mb-8 flex justify-center text-white">My Projects</h2>
+            <h2 className="font-extrabold text-4xl py-2 mb-8 flex justify-left text-white">My Projects</h2>
 
             <div className="grid md:grid-cols-3 gap-8 md:gap-12">
                 {projectData.map((project) => (
