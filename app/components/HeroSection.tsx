@@ -15,7 +15,7 @@ const HeroSection = () => {
                     <div className="col-span-7 place-self-center text-center md:text-left ">
                         <h1 className="text-white mb-6 text-4xl sm:text-4xl lg:text-6xl font-extrabold">
                             <span className="leading-normal text-transparent bg-clip-text bg-gradient-to-r from-emerald-500 to-emerald-700">
-                                Hello, I'm {" "}
+                                {"Hello, I\'m"} {" "}
                             </span>
                             <br />
                             <TypeAnimation
@@ -38,7 +38,7 @@ const HeroSection = () => {
                                 repeat={Infinity}
                             />
                         </h1>
-                        <p className="text-gray-500 text-base sm:text-lg lg:text-xl mb-6 sm:mr-8">Hello, My name is Owen and I'm a UX Design student studying at Wilfrid Laurier University. I am currently working as a UI Designer in the cyber-security industry. </p>
+                        <p className="text-gray-500 text-base sm:text-lg lg:text-xl mb-6 sm:mr-8">{"Hello, My name is Owen and I\'m a UX Design student studying at Wilfrid Laurier University. I am currently working as a UI Designer in the cyber-security industry."} </p>
                         <div>
                             <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-r from-emerald-500 to-emerald-700 hover:bg-slate-200 text-white">Contact Me</button>
                             <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-transparent hover:bg-slate-900 text-white border border-white mt-3 ">Download CV</button>

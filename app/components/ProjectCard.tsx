@@ -12,7 +12,7 @@ type ProjectCardProps = {
 };
 
 // ProjectCard is a React functional component that accepts an imgUrl, title, and description prop from the ProjectsSection 
-const ProjectCard = ({ imgUrl, title, description }: ProjectCardProps) => {
+const ProjectCard = ({ id, imgUrl, title, description }: ProjectCardProps) => {
     return (
         <div>
             <div
