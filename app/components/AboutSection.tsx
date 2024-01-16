@@ -17,7 +17,7 @@ const AboutSection = () => {
                         I am a 4th year User Experience Design student at Wifrid Laurier University currently working as a UI Designer in a co-op role. I am passionate about creating beautiful and functional designs with a focus on the Human Centered Design Approach. I look to expand and improve my skills in the field of UX Design and am always seeking new opportunities to learn and grow.
                     </p>
                     <p className="text-gray-500 text-base text-left pt-3 md:text-justify sm:text-lg lg:text-xl md:pr-10 ">
-                        When I'm not at the computer, you can find me out in the woods hiking, camping, fishing or flying one of my custom built FPV drones. I also enjoy playing video games, watching movies and spending time with my friends and family.
+                        {"When I\'m not at the computer, you can find me out in the woods hiking, camping, fishing or flying one of my custom built FPV drones. I also enjoy playing video games, watching movies and spending time with my friends and family."}
                     </p>
                     
                 </div>
