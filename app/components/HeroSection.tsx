@@ -38,20 +38,20 @@ const HeroSection = () => {
                                 repeat={Infinity}
                             />
                         </h1>
-                        <p className="text-gray-500 text-base sm:text-lg lg:text-xl mb-6 sm:mr-8">{"Hello, My name is Owen and I\'m a UX Design student studying at Wilfrid Laurier University. I am currently working as a UI Designer in the cyber-security industry."} </p>
+                        <p className="text-gray-500 text-base sm:text-lg lg:text-xl mb-6 sm:mr-8">{"Hello, My name is Owen and I\'m a UX Designer from Canada! I am currently working as a UI Designer in the cyber-security industry building applications with a skilled team of developers."} </p>
                         <div>
                             <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-r from-emerald-500 to-emerald-700 hover:bg-slate-200 text-white">Contact Me</button>
                             <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-transparent hover:bg-slate-900 text-white border border-white mt-3 ">Download CV</button>
                         </div>
                     </div>
-                    <div className="hidden md:flex col-span-5 mt-4 lg:mt-0 justify-center pt-8 md:pt-0 md:justify-end">
-                        <div className="rounded-full bg-[#181818] w-[300px] h-[300px] lg:w-[400px] lg:h-[400px] relative">
+                    <div className="flex col-span-5 mt-4 lg:mt-0 justify-center pt-8 md:pt-0 md:justify-end">
+                        <div className="rounded-full bg-[#181818] w-[200px] h-[200px] lg:w-[400px] lg:h-[400px] md:w-[300px] md:h-[300px] relative">
                             <Image
                                 src="/hero-image.png"
                                 alt="hero"
-                                className="absolute transform -translate-x-3 -translate-y-3 top-3 left-3 lg:w-[400px] lg:h-[400px]"
-                                width={300}
-                                height={300}
+                                className="absolute transform -translate-x-3 translate-y-1 top-3 left-3 lg:w-[400px] lg:h-[400px] md:w-[300px] md:h-[300px]"
+                                width={200}
+                                height={200}
                             />
                         </div>
                     </div>

@@ -4,7 +4,7 @@ import React from 'react'
 const handleScroll = (event: React.MouseEvent<HTMLButtonElement>, sectionId: string) => {
     event.preventDefault();
     const target = document.querySelector(`#${sectionId}`);
-    target?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    target?.scrollIntoView({ behavior: 'smooth', block: 'start'});
 }
 
-export default handleScroll
+export default handleScroll;
