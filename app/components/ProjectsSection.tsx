@@ -43,6 +43,7 @@ const ProjectsSection = () => {
             <div className="grid md:grid-cols-3 gap-8 md:gap-12">
                 {projectData.map((project) => (
                     <ProjectCard
+                        key={project.id}
                         id={project.id}
                         title={project.title}
                         description={project.description}
