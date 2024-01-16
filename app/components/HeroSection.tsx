@@ -10,7 +10,7 @@ import { Container } from './Container';
 const HeroSection = () => {
     return (
         <section className="flex flex-col min-h-screen justify-center">
-            <Container>
+            <Container classes="pt-20 sm:pt-0">
                 <div className="grid grid-cols-1 md:grid-cols-12">
                     <div className="col-span-7 place-self-center text-center md:text-left ">
                         <h1 className="text-white mb-6 text-4xl sm:text-4xl lg:text-6xl font-extrabold">
@@ -59,7 +59,7 @@ const HeroSection = () => {
                 </div>
             </Container>
 
-            <div className="flex justify-center duration-300 absolute bottom-0 left-0 right-0 ">
+            <div className="hidden sm:flex justify-center duration-300 absolute bottom-0 left-0 right-0 ">
                 <button onClick={(event) => handleScroll(event, "About")} className="flex w-[60px] h-[60px] justify-center rounded-full bg-transparent border-white text-white animate-bounce">
                     <FaArrowDown className="-translate-y-8 text-4xl"/>
                 </button>
