@@ -12,7 +12,7 @@ const NavLink = ({ href, title }: NavLinkProps)=> {
     return (
         <button
             onClick={(event) => handleScroll(event, href)}
-            className="block py-2 pl-3 pr-4 text-gray-500 sm:text-xl rounded md:p-0 font-semibold hover:text-white"
+            className="block py-2 pl-3 pr-4 text-gray-300 sm:text-xl rounded md:p-0 font-semibold hover:text-white"
         >
             {title}
         </button>
