@@ -7,7 +7,7 @@ const projectData = [
         id: 1,
         title: "Admin Dashboard Prototype",
         description: "A full application prototype for managing cryptographic assets.",
-        imgUrl: "/QxProject.png",
+        imgUrl: "/portfolio.png",
         tags: ["UX Design", "UI Design", "Prototype"]
     },
     {
