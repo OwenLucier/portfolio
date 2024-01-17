@@ -29,7 +29,7 @@ const HeroSection = () => {
                         }}
                         className="col-span-7 place-self-center text-center md:text-left ">
 
-                        <h1 className="text-white mb-6 text-4xl sm:text-4xl lg:text-6xl font-extrabold">
+                        <h1 className="text-white mb-6 text-4xl sm:text-4xl lg:text-8xl font-extrabold">
                             <span className="leading-normal text-transparent bg-clip-text bg-gradient-to-r from-emerald-500 to-emerald-700">
                                 {"Hello, I\'m"} {" "}
                             </span>
