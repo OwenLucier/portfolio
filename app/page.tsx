@@ -4,6 +4,7 @@ import HeroSection from './components/HeroSection'
 import NavBar from './components/NavBar'
 import AboutSection from './components/AboutSection'
 import ProjectsSection from './components/ProjectsSection'
+import SkillsSection from './components/SkillsSection'
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <NavBar />
       <HeroSection />
       <AboutSection />
+      <SkillsSection />
       <ProjectsSection />
     </main>
   )
