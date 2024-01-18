@@ -11,7 +11,7 @@ import { useInView } from 'react-intersection-observer';
 const SkillsSection = () => {
     const controls = useAnimation();
     const { ref, inView } = useInView({
-        threshold: 1,
+        threshold: 0.1,
     });
 
     useEffect(() => {
