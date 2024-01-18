@@ -19,7 +19,7 @@ const RadialProgressBar: React.FC<RadialProgressBarProps> = ({ percentage, image
     return (
 
 
-        <motion.div className="flex w-[60px] h-[60px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px] rounded-full shadow-c-md"
+        <motion.div className="flex w-[80px] h-[80px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px] rounded-full shadow-c-md"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: false, amount: 0.8 }}
