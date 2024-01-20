@@ -12,6 +12,20 @@ const projectData = [
         imgUrl: "/portfolio.png",
         tags: ["UX Design", "UI Design", "NextJs", "React", "Typescript", "Tailwind", "Framer Motion"]
     },
+    {
+        id: 2,
+        title: "Portfolio Website",
+        description: "A personal project aimed at learning and expanding my skills with Typescript, React, NextJs, Tailwind and Framer Morion",
+        imgUrl: "/portfolio.png",
+        tags: ["UX Design", "UI Design", "NextJs", "React", "Typescript", "Tailwind", "Framer Motion"]
+    },
+    {
+        id: 3,
+        title: "Portfolio Website",
+        description: "A personal project aimed at learning and expanding my skills with Typescript, React, NextJs, Tailwind and Framer Morion",
+        imgUrl: "/portfolio.png",
+        tags: ["UX Design", "UI Design", "NextJs", "React", "Typescript", "Tailwind", "Framer Motion"]
+    },
    
 ];
 
