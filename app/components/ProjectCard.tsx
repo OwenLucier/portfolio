@@ -37,7 +37,7 @@ const ProjectCard = ({ id, imgUrl, title, description, tag }: ProjectCardProps) 
                 <div className="flex justify-top flex-col flex-1 ml-5">
                     {/* Align the arrow to the end */}
                     <div className="flex items-center justify-between mb-4">
-                        <h5 className="text-lg sm:text-xl font-semibold">{title}</h5>
+                        <h5 className="text-lg text-white sm:text-xl font-semibold">{title}</h5>
                         <FaArrowRightLong className="hidden sm:flex items-center text-white text-2xl" />
                     </div>
 
