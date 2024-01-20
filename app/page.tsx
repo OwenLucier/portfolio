@@ -5,6 +5,7 @@ import NavBar from './components/NavBar'
 import AboutSection from './components/AboutSection'
 import ProjectsSection from './components/ProjectsSection'
 import SkillsSection from './components/SkillsSection'
+import GlowingCard from './components/GlowingCard'
 
 export default function Home() {
   return (

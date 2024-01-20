@@ -18,7 +18,6 @@ const RadialProgressBar: React.FC<RadialProgressBarProps> = ({ percentage, image
 
     return (
 
-
         <div className="flex w-[80px] h-[80px] md:w-[100px] md:h-[100px] lg:w-[120px] lg:h-[120px] rounded-full shadow-c-md">
 
             <svg className="w-full h-full" viewBox="0 0 200 200">
