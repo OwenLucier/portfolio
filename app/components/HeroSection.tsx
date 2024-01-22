@@ -11,7 +11,7 @@ import { motion } from 'framer-motion';
 //Hero Section is a React functional component that displays the hero section of the website
 const HeroSection = () => {
     return (
-        <section className="flex flex-col min-h-screen justify-center">
+        <section id="Hero" className="flex flex-col min-h-screen justify-center">
             <Container classes="pt-20 sm:pt-0">
                 <div className="grid grid-cols-1 md:grid-cols-12">
                     <motion.div

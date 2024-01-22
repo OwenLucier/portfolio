@@ -4,7 +4,7 @@ import { Container } from './Container'
 
 const AboutSection = () => {
     return (
-        <section id="About" className="">
+        <section id="About" className="min-h-screen">
             <Container>
             
             <h2 className="font-extrabold justify-left text-4xl mt-20 pb-8 flex md:py-8 text-white">About Me</h2>

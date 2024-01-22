@@ -12,6 +12,7 @@ const navLinks = [
     { title: 'About', href: 'About' },
     { title: 'Projects', href: 'Projects' },
     { title: 'Contact', href: 'Contact' },
+    { title: 'Hero', href: 'Hero' },
 ]
 
 const Navbar = () => {
@@ -51,7 +52,7 @@ const Navbar = () => {
         <nav className="fixed top-0 left-0 right-0 z-10 bg-[#121212]">
             <Container>
             <div className="flex flex-wrap items-center justify-between mx-auto py-3">
-                <Link href="/" className="text-2xl md:text-4xl text-white font-semibold"> OL </Link>
+                <NavLink title="OL" href={"Hero"} classes="text-2xl md:text-4xl text-white font-semibold"/>
                 <div className="mobile-menu block md:hidden">
                     {
                         !navbarOpen ? (
@@ -74,7 +75,7 @@ const Navbar = () => {
             </div>
 
             {
-                // If the navbarOpen state is true, render the MenuOverlay component if false, render nothing (null)
+                // If the navbarOpen state is true, render the MobileMenu component if false, render nothing (null)
             }
             {navbarOpen ? <MenuOverlay links={navLinks} /> : null}
             </Container>
