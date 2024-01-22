@@ -1,6 +1,6 @@
 "use client"
 import React from 'react'
-import ProjectCard from './ProjectCard';
+import ProjectCard from './projects/ProjectCard';
 import {motion, useScroll } from 'framer-motion';
 
 // Rest of the code...

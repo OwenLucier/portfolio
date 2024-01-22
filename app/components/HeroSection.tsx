@@ -3,7 +3,7 @@ import React from 'react'
 import Image from 'next/image'
 import { TypeAnimation } from 'react-type-animation';
 import { FaArrowDown } from "react-icons/fa6";
-import handleScroll from './SmoothScroll';
+import handleScroll from './navigation/SmoothScroll';
 import { Container } from './Container';
 import { motion } from 'framer-motion';
 

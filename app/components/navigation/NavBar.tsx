@@ -5,7 +5,7 @@ import NavLink from './NavLink'
 import { FaHamburger } from "react-icons/fa";
 import { IoIosCloseCircle } from "react-icons/io";
 import MenuOverlay from './MenuOverlay';
-import { Container } from './Container';
+import { Container } from '../Container';
 
 //Array of objects that contain the title and href for each link 
 const navLinks = [
@@ -75,7 +75,7 @@ const Navbar = () => {
             </div>
 
             {
-                // If the navbarOpen state is true, render the MobileMenu component if false, render nothing (null)
+                // If the navbarOpen state is true, render the MenuOverlay component if false, render nothing (null)
             }
             {navbarOpen ? <MenuOverlay links={navLinks} /> : null}
             </Container>

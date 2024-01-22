@@ -1,11 +1,11 @@
 
 import Image from 'next/image'
 import HeroSection from './components/HeroSection'
-import NavBar from './components/NavBar'
+import NavBar from './components/navigation/NavBar'
 import AboutSection from './components/AboutSection'
 import ProjectsSection from './components/ProjectsSection'
 import SkillsSection from './components/SkillsSection'
-import GlowingCard from './components/GlowingCard'
+import GlowingCard from './components/projects/GlowingCard'
 
 export default function Home() {
   return (

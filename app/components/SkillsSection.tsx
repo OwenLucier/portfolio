@@ -3,8 +3,8 @@ import React from 'react'
 import { Container } from './Container'
 import { useEffect } from 'react'
 import { motion, useTransform, useViewportScroll, useAnimation } from 'framer-motion'
-import ProgressCircle from './ProgressCircle'
-import { SkillsDiv } from './SkillsDiv'
+import ProgressCircle from './skills/ProgressCircle'
+import { SkillsDiv } from './skills/SkillsDiv'
 import { useInView } from 'react-intersection-observer';
 
 
