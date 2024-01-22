@@ -26,7 +26,7 @@ const SkillsSection = () => {
     }
 
 return (
-    <section id="Stack" ref={ref}>
+    <section id="Stack" ref={ref} className="min-h-screen">
         <Container>
             <h2 className="font-extrabold justify-left text-4xl mt-20 pb-8 flex md:py-8 text-white">Stack</h2>
 

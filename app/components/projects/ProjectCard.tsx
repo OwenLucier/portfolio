@@ -34,18 +34,21 @@ const ProjectCard = ({ id, imgUrl, title, description, tag }: ProjectCardProps) 
                     </div>
                 </div>
 
-                <div className="flex justify-top flex-col flex-1 ml-5">
+                <div className="flex flex-col flex-1 ml-5 md:pt-2">
                     {/* Align the arrow to the end */}
-                    <div className="flex items-center justify-between mb-4">
-                        <h5 className="text-lg text-white sm:text-xl font-semibold">{title}</h5>
-                        <FaArrowRightLong className="hidden sm:flex items-center text-white text-2xl" />
+                    <div className="flex items-center justify-between mb-1 lg:mb-3">
+                        <h5 className="text-sm sm:text-lg text-white font-semibold">{title}</h5>
+                        <FaArrowRightLong className="hidden lg:flex items-center text-white text-2xl" />
                     </div>
 
-                    <p className="hidden sm:flex xs:text-xs md:text-lg text-gray-200">{description}</p>
+                    <p className="hidden text-[10px] sm:flex md:text-sm lg:text-lg text-gray-400">{description}</p>
 
                     <div className="flex flex-wrap mt-4">
                         {/* Make an individual pill component */}
                         {/* <div className="bg-transparent border-2 border-emerald-500 rounded-full px-3 py-1 text-sm font-semibold text-gray-200 mr-2 mb-2">{tag}</div> */}
+                        {tag.map((tag) => (
+                            <div key={tag} className="hidden xl:flex bg-transparent border-[1px] border-emerald-500 rounded-full px-3 py-1 text-sm font-semibold text-gray-200 mr-2 mt-3">{tag}</div>
+                        ))}
                     </div>
                 </div>
             </div>
