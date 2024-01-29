@@ -1,11 +1,13 @@
 "use client"
-import React from 'react'
+import React, { Suspense } from "react";
 import Image from 'next/image'
 import { TypeAnimation } from 'react-type-animation';
 import { FaArrowDown } from "react-icons/fa6";
 import handleScroll from './navigation/SmoothScroll';
 import { Container } from './Container';
 import { motion } from 'framer-motion';
+import { OrbitControls, Sphere, MeshDistortMaterial } from "@react-three/drei";
+import { Canvas } from "@react-three/fiber";
 
 //Hero Section is a React functional component that displays the hero section of the website
 const HeroSection = () => {
@@ -93,7 +95,24 @@ const HeroSection = () => {
                             }
                         }}
                         className="flex col-span-5 mt-4 lg:mt-0 justify-center pt-8 md:pt-0 md:justify-end">
+
                         <div className="rounded-full bg-[#181818] w-[200px] h-[200px] lg:w-[400px] lg:h-[400px] md:w-[300px] md:h-[300px] relative">
+                            <Canvas >
+                                <Suspense fallback={null}>
+                                    <OrbitControls enableZoom={false} />
+                                    <ambientLight intensity={3.0} />
+                                    <directionalLight position={[3, 2, 1]} />
+                                    <Sphere args={[1, 100, 200]} scale={3.0}>
+                                        <MeshDistortMaterial
+                                            color="emerald"
+                                            attach="material"
+                                            distort={0.5}
+                                            speed={2}
+                                        />
+                                    </Sphere>
+                                </Suspense>
+                            </Canvas >
+
                             <Image
                                 src="/hero-image.png"
                                 alt="hero"
@@ -118,3 +137,5 @@ const HeroSection = () => {
 }
 
 export default HeroSection
+
+

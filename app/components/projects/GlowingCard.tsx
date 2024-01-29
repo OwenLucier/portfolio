@@ -11,7 +11,6 @@ type ContainerProps = PropsWithChildren & {
 
 const GlowingCard: React.FC<ContainerProps> = ({ children, classes, style, link}) => {
     return (
-        console.log(link),
         <motion.button className="w-full mt-10 sm:mt-24 bg-transparent relative" style={{ paddingBottom: '40%' }}
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}

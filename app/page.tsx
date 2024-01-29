@@ -1,11 +1,10 @@
 
-import Image from 'next/image'
 import HeroSection from './components/HeroSection'
 import NavBar from './components/navigation/NavBar'
 import AboutSection from './components/AboutSection'
 import ProjectsSection from './components/ProjectsSection'
-import SkillsSection from './components/SkillsSection'
-import GlowingCard from './components/projects/GlowingCard'
+import FooterSection from './components/FooterSection'
+
 
 export default function Home() {
   return (
@@ -14,8 +13,7 @@ export default function Home() {
       <HeroSection />
       <AboutSection />
       <ProjectsSection />
-      <SkillsSection />
-
+      <FooterSection />
     </main>
   )
 }
