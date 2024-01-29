@@ -20,7 +20,7 @@ const AboutSection = () => {
                                 height={800}
                             />
                     </div>
-                    <div className="col-span-12 md:col-span-8 md:pl-8">
+                    <div className="col-span-12 md:col-span-8 md:pl-8 pt-6">
                         <h2 className="font-extrabold justify-left text-xl md:text-xl pb-6 flex text-white">About Me</h2>
                         <p className="text-gray-300 text-sm text-justify lg:text-xl mb-6 sm:mr-8">
                             I am a 4th year User Experience Design student at Wifrid Laurier University currently working as a UI Designer in a co-op role. I am passionate about creating beautiful and functional designs with a focus on the Human Centered Design Approach. I look to expand and improve my skills in the field of UX Design and am always seeking new opportunities to learn and grow.
