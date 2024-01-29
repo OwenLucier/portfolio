@@ -7,7 +7,6 @@ import handleScroll from './navigation/SmoothScroll';
 import { Container } from './Container';
 import { motion } from 'framer-motion';
 
-
 //Hero Section is a React functional component that displays the hero section of the website
 const HeroSection = () => {
     return (
@@ -80,25 +79,25 @@ const HeroSection = () => {
                             </motion.button>
                         </div>
                     </motion.div>
-                    <motion.div 
-                    initial={{ opacity: 0, scale: 0.5 }}
-                    animate={{ opacity: 1, scale: 1 }}
-                    transition={{
-                        duration: 0.3,
-                        ease: [0, 0.71, 0.2, 1.01],
-                        scale: {
-                            type: "spring",
-                            damping: 10,
-                            stiffness: 100,
-                            restDelta: 0.001
-                        }
-                    }}
-                    className="flex col-span-5 mt-4 lg:mt-0 justify-center pt-8 md:pt-0 md:justify-end">
+                    <motion.div
+                        initial={{ opacity: 0, scale: 0.5 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        transition={{
+                            duration: 0.3,
+                            ease: [0, 0.71, 0.2, 1.01],
+                            scale: {
+                                type: "spring",
+                                damping: 10,
+                                stiffness: 100,
+                                restDelta: 0.001
+                            }
+                        }}
+                        className="flex col-span-5 mt-4 lg:mt-0 justify-center pt-8 md:pt-0 md:justify-end">
                         <div className="rounded-full bg-[#181818] w-[200px] h-[200px] lg:w-[400px] lg:h-[400px] md:w-[300px] md:h-[300px] relative">
                             <Image
                                 src="/hero-image.png"
                                 alt="hero"
-                                className="absolute transform -translate-x-3 translate-y-1 top-3 left-3 lg:w-[400px] lg:h-[400px] md:w-[300px] md:h-[300px]"
+                                className="heroImage absolute transform -translate-x-3 translate-y-1 top-3 left-3 lg:w-[400px] lg:h-[400px] md:w-[300px] md:h-[300px]"
                                 width={200}
                                 height={200}
                             />

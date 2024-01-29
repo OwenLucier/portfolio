@@ -13,12 +13,13 @@ type ProjectCardProps = {
     title: string;
     description: string;
     tag: string[];
+    link: string;
 };
 
 // ProjectCard is a React functional component that accepts an imgUrl, title, description, and tag prop from the ProjectsSection 
-const ProjectCard = ({ id, imgUrl, title, description, tag }: ProjectCardProps) => {
+const ProjectCard = ({ id, imgUrl, title, description, tag, link }: ProjectCardProps) => {
     return (
-        <GlowingCard>
+        <GlowingCard link={link}>
             <div className="flex h-full p-3 md:p-6 ">
 
                 {/* Image */}

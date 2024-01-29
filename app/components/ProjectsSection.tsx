@@ -12,21 +12,24 @@ const projectData = [
         title: "Portfolio Website",
         description: "A personal project aimed at learning and expanding my skills with Typescript, React, NextJs, Tailwind and Framer Morion",
         imgUrl: "/portfolio.png",
-        tags: ["UX Design", "UI Design", "NextJs", "React", "Typescript", "Tailwind", "Framer Motion"]
+        tags: ["UX Design", "UI Design", "NextJs", "React", "Typescript", "Tailwind", "Framer Motion"],
+        link: "/project-1"
     },
     {
         id: 2,
         title: "Admin Dashboard",
         description: "An administrative dashboard for managing users, hardware and configurations",
         imgUrl: "/.png",
-        tags: ["UX Design", "UI Design", "Figma"]
+        tags: ["UX Design", "UI Design", "Figma"],
+        link: "/project-2"
     },
     {
         id: 3,
         title: "Wilfrid Laurier Case Study",
         description: "A joint-case study with Unreal Design Partners, a UX Design agency based in Toronto, Ontario",
         imgUrl: "/grd-cover.png",
-        tags: ["UX Design", "UI Design", "Figma", "UX Research", "UX Strategy"]
+        tags: ["UX Design", "UI Design", "Figma", "UX Research", "UX Strategy"],
+        link: "/project-3"
     },
 
 ];
@@ -61,7 +64,9 @@ const ProjectsSection = () => {
                                 title={project.title}
                                 description={project.description}
                                 imgUrl={project.imgUrl}
-                                tag={project.tags} />
+                                tag={project.tags}
+                                link={project.link}
+                                />
                         ))}
                     </div>
                 </div>

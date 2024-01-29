@@ -25,3 +25,14 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+/* Hero Image animation */
+@keyframes hero-animate {
+  100% {
+      transform: translateY(20px);
+  }
+}
+
+.heroImage {
+  animation: hero-animate 4s ease infinite alternate;
+}
