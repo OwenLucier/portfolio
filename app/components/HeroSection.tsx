@@ -14,23 +14,7 @@ const HeroSection = () => {
     return (
         <section id="Hero" className="flex flex-col min-h-screen justify-center">
             <Container classes="pt-20 sm:pt-0">
-                <div className="absolute translate-x-[500px] -translate-y-[50px] h-[500px] w-[500px]">
-                    <Canvas>
-                        <Suspense fallback={null}>
-                            <OrbitControls enableZoom={false} />
-                            <ambientLight intensity={1.0} />
-                            <directionalLight position={[3, 2, 1]} />
-                            <Sphere args={[1, 100, 200]} scale={2.4}>
-                                <MeshDistortMaterial
-                                    color="#10B981"
-                                    attach="material"
-                                    distort={0.5}
-                                    speed={0.5}
-                                />
-                            </Sphere>
-                        </Suspense>
-                    </Canvas >
-                </div>
+                
                 <div className="grid grid-cols-1 md:grid-cols-12">
                     <motion.div
                         initial={{ opacity: 0, scale: 0.5 }}
@@ -113,9 +97,25 @@ const HeroSection = () => {
                         }}
                         className="flex col-span-5 mt-4 lg:mt-0 justify-center pt-8 md:pt-0 md:justify-end">
 
-                        <div className="overflow-visible w-[200px] h-[200px] lg:w-[400px] lg:h-[400px] md:w-[300px] md:h-[300px] relative">
+                        <div className="hidden sm:flex w-[200px] h-[200px] lg:w-[400px] lg:h-[400px] md:w-[300px] md:h-[300px] relative">
 
-
+                        <div className="absolute  sm:-translate-x-[100px] sm:-translate-y-[90px] md:-translate-x-[150px] md:-translate-y-[100px] lg:-translate-x-[200px] lg:-translate-y-[200px] sm:h-[450px] sm:w-[450px] md:h-[600px] md:w-[600px] lg:h-[900px] lg:w-[900px]">
+                    <Canvas>
+                        <Suspense fallback={null}>
+                            <OrbitControls enableZoom={false} />
+                            <ambientLight intensity={1.0} />
+                            <directionalLight position={[3, 2, 1]} />
+                            <Sphere args={[1, 100, 200]} scale={1.8}>
+                                <MeshDistortMaterial
+                                    color="#10B981"
+                                    attach="material"
+                                    distort={0.5}
+                                    speed={0.5}
+                                />
+                            </Sphere>
+                        </Suspense>
+                    </Canvas >
+                </div>
                             <Image
                                 src="/hero-image.png"
                                 alt="hero"
