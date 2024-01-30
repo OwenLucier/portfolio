@@ -11,8 +11,9 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-left bg-[#121212]">
       <NavBar />
       <HeroSection />
-      <AboutSection />
       <ProjectsSection />
+      <AboutSection />
+      
       <FooterSection />
     </main>
   )

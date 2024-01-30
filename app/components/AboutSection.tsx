@@ -9,9 +9,8 @@ const AboutSection = () => {
         <section id="About" className="flex flex-col min-h-screen justify-center">
 
             <Container>
-                <div className="flex flex-col items-center justify-center px-6 py-3 w-full sm:w-fit rounded-[10px] bg-red-500 text-white mb-20">
-                    Warning! This site is under construction, please watch for falling debris!
-                </div>
+                
+
                 <div className="grid grid-cols-1 md:grid-cols-12">
 
                     <div className="hidden sm:flex col-span-12 place-self-top mb-3 md:col-span-4">
@@ -24,15 +23,16 @@ const AboutSection = () => {
                         />
                     </div>
                     <div className="col-span-12 md:col-span-8 md:pl-8 pt-6">
-                        <h2 className="font-extrabold justify-left text-xl md:text-xl lg:text-4xl pb-6 flex text-white">About Me</h2>
-                        <p className="text-gray-300 text-sm text-justify lg:text-xl mb-6 sm:mr-8">
+                    <h2 className="font-extrabold text-2xl py-2  text-white justify-start">About Me</h2>
+
+                        <p className="text-gray-400 text-justify lg:text-xl mb-6">
                             I am a fourth-year student specializing in User Experience Design at Wilfrid Laurier University. Currently, I am engaged as a UI Designer in a dynamic co-op role. My goal is to create aesthetically pleasing and highly functional designs, driven by a commitment to the Human-Centered Design Approach. I continually enhance and broaden my expertise in UX Design through personal projects and research. I am always on the lookout for fresh opportunities to foster learning and personal growth.
                         </p>
-                        <p className="text-gray-300 text-sm text-justify lg:text-xl mb-6 sm:mr-8">
+                        <p className="text-gray-400 text-justify lg:text-xl mb-6">
                             {"When I\'m not at the computer, you can find me out in the woods hiking, camping, fishing or flying one of my custom built FPV drones. I also enjoy playing video games, watching movies and spending time with my friends and family."}
                         </p>
 
-                        <h2 className="font-extrabold justify-left text-xl lg:text-2xl pb-6 flex text-white">My Stack</h2>
+                        <h2 className="font-semibold justify-left text-xl lg:text-xl pb-2 flex text-white">Technologies I use:</h2>
                         <div className="flex flex-wrap w-flex justify-start gap-4 mt-2">
 
                             <img src="https://skillicons.dev/icons?i=figma" />

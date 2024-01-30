@@ -103,7 +103,7 @@ const HeroSection = () => {
                             />
                         </h1>
                         
-                        <p className="text-gray-300 text-base sm:text-lg lg:text-xl mb-6 sm:mr-8">{"Hello, My name is Owen and I\'m a UX Designer from Ontario, Canada! I am currently working as a UI Designer in the cyber-security industry building applications with a skilled team of developers. Follow me on my design journey!"} </p>
+                        <p className="text-gray-400 text-base sm:text-lg lg:text-xl mb-6 sm:mr-8">{"Hello, My name is Owen and I\'m a UX Designer from Ontario, Canada! I am currently working as a UI Designer in the cyber-security industry building applications with a skilled team of developers. Follow me on my design journey!"} </p>
 
                         {/*
                         Animated contact me and download CV buttons
@@ -207,7 +207,7 @@ const HeroSection = () => {
             </Container>
 
             <div className="hidden sm:flex justify-center duration-300 absolute bottom-0 left-0 right-0 ">
-                <button onClick={(event) => handleScroll(event, "About")} className="flex w-[60px] h-[60px] justify-center rounded-full bg-transparent border-white text-white animate-bounce">
+                <button onClick={(event) => handleScroll(event, "Projects")} className="flex w-[60px] h-[60px] justify-center rounded-full bg-transparent border-white text-white animate-bounce">
                     <FaArrowDown className="-translate-y-8 text-4xl" />
                 </button>
             </div>

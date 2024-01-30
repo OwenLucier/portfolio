@@ -26,10 +26,10 @@ const ProjectCard = ({ id, imgUrl, title, subtitle, description, descriptionLine
 
         <div className="">
             {/*New project card stuff*/}
-            <div className="flex flex-col py-8 min-h-[300px] justify-center mb-20 rounded-xl hover:bg-green-400/20">
+            <div className="flex flex-col py-8 px-4 min-h-[300px] justify-center mb-20 rounded-xl hover:bg-green-400/20">
 
                 <div className="grid grid-cols-12 relative">
-                    <div className="hidden md:flex col-span-2 mx-8 text-gray-400 font-semibold">
+                    <div className="hidden md:flex col-span-2 mr-8 text-gray-400 font-semibold">
                         <p>{date}</p>
                     </div>
 
