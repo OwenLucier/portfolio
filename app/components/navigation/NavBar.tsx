@@ -48,7 +48,7 @@ const Navbar = () => {
 
     const [navbarOpen, setNavbarOpen] = React.useState(false);
     return (
-        <nav className="fixed top-0 left-0 right-0 z-10 bg-[#121212]">
+        <nav className="fixed top-0 left-0 right-0 z-40 bg-[#121212]">
             <Container>
             <div className="flex flex-wrap items-center justify-between mx-auto py-3">
                 <NavLink title="OL" href={"Hero"} classes="text-2xl md:text-4xl text-white font-semibold"/>
