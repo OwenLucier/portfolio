@@ -125,7 +125,7 @@ const HeroSection = () => {
                                 Download CV
                             </motion.button>
 
-                            <div className="flex flex-col-2 gap-4">
+                            <div className="flex flex-col-2 gap- text-white">
                                 <motion.button
                                     className="w-full sm:w-fit"
                                     whileHover={{ scale: 1.1 }}
@@ -136,7 +136,7 @@ const HeroSection = () => {
                                     </a>
                                 </motion.button>
                                 <motion.button
-                                    className="w-full sm:w-fit"
+                                    className="w-full sm:w-fit text-white"
                                     whileHover={{ scale: 1.1 }}
                                     whileTap={{ scale: 0.9 }}
                                 >
