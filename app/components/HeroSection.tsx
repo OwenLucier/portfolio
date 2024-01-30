@@ -51,7 +51,7 @@ const HeroSection = () => {
                     <Image
                         src="/hero-image.png"
                         alt="hero"
-                        className="absolute translate-x-[70px] translate-y-[50px]"
+                        className="absolute translate-x-[60px] translate-y-[50px]"
                         width={800}
                         height={800}
                     />
