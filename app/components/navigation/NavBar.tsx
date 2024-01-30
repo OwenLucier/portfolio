@@ -11,7 +11,7 @@ import { Container } from '../Container';
 const navLinks = [
     { title: 'About', href: 'About' },
     { title: 'Projects', href: 'Projects' },
-    { title: 'Contact', href: 'Contact' },
+    //{ title: 'Contact', href: 'Contact' },
 ]
 
 const Navbar = () => {

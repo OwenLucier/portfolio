@@ -55,7 +55,7 @@ const ProjectsSection = () => {
             <Container>
 
                 <div className="flex flex-wrap">
-                    <h2 className="font-extrabold text-2xl mx-4 py-2 mt-20 text-white justify-start">My Projects</h2>
+                    <h2 className="font-extrabold text-2xl mx-4 py-2 mt-20 mb-2 text-white justify-start">My Projects</h2>
                 </div>
                 <div className=" md:flex flex-col">
 
