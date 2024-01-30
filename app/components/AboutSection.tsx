@@ -15,7 +15,7 @@ const AboutSection = () => {
                     <Image
                                 src="/about-image.jpg"
                                 alt="hero"
-                                className="hidden md:block heroImage absolute w-[200px] h-[300px] rounded-[30px] border-solid border-4 border-emerald-500 xl:w-[400px] xl:h-[500px] lg:w-[300px] lg:h-[420px] md:w-[250px] md:h-[350px]"
+                                className="hidden md:block heroImage absolute w-[200px] h-[300px] rounded-[30px] border-solid border-2 xl:w-[400px] xl:h-[500px] lg:w-[300px] lg:h-[420px] md:w-[250px] md:h-[350px]"
                                 width={800}
                                 height={800}
                             />

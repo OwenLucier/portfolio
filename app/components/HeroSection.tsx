@@ -2,7 +2,7 @@
 import React, { Suspense, useEffect, useState } from "react";
 import Image from 'next/image'
 import { TypeAnimation } from 'react-type-animation';
-import { FaArrowDown } from "react-icons/fa6";
+import { FaArrowDown, FaGithub, FaLinkedin } from "react-icons/fa6";
 import handleScroll from './navigation/SmoothScroll';
 import { Container } from './Container';
 import { motion } from 'framer-motion';
@@ -24,6 +24,41 @@ const HeroSection = () => {
     return (
         <section id="Hero" className="flex flex-col min-h-screen justify-center">
             <Container classes="pt-20 sm:pt-0">
+                <div className="flex sm:hidden w-[200px] h-[200px] relative mb-[100px]">
+
+                    <div className="absolute -translate-x-[70px] -translate-y-[90px] h-[450px] w-[450px]">
+
+                        {renderCanvas && (
+                            <Canvas>
+
+                                <Suspense fallback={null}>
+                                    <OrbitControls enableZoom={false} />
+                                    <ambientLight intensity={1.0} />
+                                    <directionalLight position={[3, 2, 1]} />
+                                    <Sphere args={[1, 100, 200]} scale={1.8}>
+                                        <MeshDistortMaterial
+                                            color="#10B981"
+                                            attach="material"
+                                            distort={0.5}
+                                            speed={0.5}
+                                        />
+                                    </Sphere>
+                                </Suspense>
+                            </Canvas >
+                        )}
+
+                    </div>
+                    <Image
+                        src="/hero-image.png"
+                        alt="hero"
+                        className="absolute translate-x-[70px] translate-y-[50px]"
+                        width={800}
+                        height={800}
+                    />
+                </div>
+
+
+
 
                 <div className="grid grid-cols-1 md:grid-cols-12">
                     <motion.div
@@ -72,9 +107,9 @@ const HeroSection = () => {
                         Animated contact me and download CV buttons
                         TODO: Add contact me and download CV functionality 
                         */}
-                        <div>
+                        <div className="flex flex-wrap gap-4 mt-12 align-center justify-center lg:justify-start ">
                             <motion.button
-                                className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-r from-emerald-500 to-emerald-700 hover:bg-slate-200 text-white"
+                                className="px-6 py-3 w-full sm:w-fit rounded-full bg-gradient-to-r from-emerald-500 to-emerald-700 hover:bg-slate-200 text-white"
                                 whileHover={{ scale: 1.1 }}
                                 whileTap={{ scale: 0.9 }}
                             >
@@ -83,13 +118,35 @@ const HeroSection = () => {
                             </motion.button>
 
                             <motion.button
-                                className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-transparent text-white border border-white mt-3 "
+                                className="px-6 py-3 w-full sm:w-fit rounded-full bg-transparent text-white border border-white"
                                 whileHover={{ scale: 1.1 }}
                                 whileTap={{ scale: 0.9 }}
                             >
                                 Download CV
-
                             </motion.button>
+
+                            <div className="flex flex-col-2 gap-4">
+                                <motion.button
+                                    className="w-full sm:w-fit"
+                                    whileHover={{ scale: 1.1 }}
+                                    whileTap={{ scale: 0.9 }}
+                                >
+                                    <a href="https://github.com/OwenLucier">
+                                        <FaGithub className="text-4xl" />
+                                    </a>
+                                </motion.button>
+                                <motion.button
+                                    className="w-full sm:w-fit"
+                                    whileHover={{ scale: 1.1 }}
+                                    whileTap={{ scale: 0.9 }}
+                                >
+                                    <a href="https://www.linkedin.com/in/owen-lucier/">
+                                        <FaLinkedin className="text-4xl" />
+                                    </a>
+                                </motion.button>
+                            </div>
+
+
                         </div>
                     </motion.div>
                     <motion.div
@@ -109,7 +166,7 @@ const HeroSection = () => {
 
                         <div className="hidden sm:flex w-[200px] h-[200px] lg:w-[400px] lg:h-[400px] md:w-[300px] md:h-[300px] relative">
 
-                            <div className="absolute  sm:-translate-x-[100px] sm:-translate-y-[90px] md:-translate-x-[150px] md:-translate-y-[100px] lg:-translate-x-[200px] lg:-translate-y-[200px] sm:h-[450px] sm:w-[450px] md:h-[600px] md:w-[600px] lg:h-[900px] lg:w-[900px]">
+                            <div className="absolute sm:-translate-x-[100px] sm:-translate-y-[90px] md:-translate-x-[150px] md:-translate-y-[100px] lg:-translate-x-[200px] lg:-translate-y-[200px] sm:h-[450px] sm:w-[450px] md:h-[600px] md:w-[600px] lg:h-[900px] lg:w-[900px]">
 
                                 {renderCanvas && (
                                     <Canvas>

@@ -24,7 +24,7 @@ const ProjectCard = ({ id, imgUrl, title, description, tag, link }: ProjectCardP
 
                 {/* Image */}
                 <div className="flex-1 bg-transparent relative">
-                    <div className="absolute inset-0 flex bg-[radial-gradient(at_top_right,_#FFFFFF,_#565656,_transparent)] rounded-lg sm:rounded-2xl"
+                    <div className="absolute inset-0 flex rounded-lg sm:rounded-2xl"
                         style={{ boxShadow: '-13px 39px 250px -39px rgba(255, 255, 255, 0.17)' }}>
                         <div className="flex-grow m-0.5 bg-[#181818] rounded-lg sm:rounded-2xl">
                             <div
@@ -35,7 +35,7 @@ const ProjectCard = ({ id, imgUrl, title, description, tag, link }: ProjectCardP
                     </div>
                 </div>
 
-                <div className="flex flex-col flex-1 ml-5 md:pt-2">
+                <div className="flex flex-col flex-1 ml-5 md:pt-2 ">
                     {/* Align the arrow to the end */}
                     <div className="flex items-center justify-between mb-1 lg:mb-3">
                         <h5 className="text-sm sm:text-lg text-white font-semibold">{title}</h5>
