@@ -21,7 +21,7 @@ const AboutSection = () => {
                             />
                     </div>
                     <div className="col-span-12 md:col-span-8 md:pl-8 pt-6">
-                        <h2 className="font-extrabold justify-left text-xl md:text-xl pb-6 flex text-white">About Me</h2>
+                        <h2 className="font-extrabold justify-left text-xl md:text-xl lg:text-4xl pb-6 flex text-white">About Me</h2>
                         <p className="text-gray-300 text-sm text-justify lg:text-xl mb-6 sm:mr-8">
                             I am a 4th year User Experience Design student at Wifrid Laurier University currently working as a UI Designer in a co-op role. I am passionate about creating beautiful and functional designs with a focus on the Human Centered Design Approach. I look to expand and improve my skills in the field of UX Design and am always seeking new opportunities to learn and grow.
                         </p>
@@ -29,7 +29,7 @@ const AboutSection = () => {
                             {"When I\'m not at the computer, you can find me out in the woods hiking, camping, fishing or flying one of my custom built FPV drones. I also enjoy playing video games, watching movies and spending time with my friends and family."}
                         </p>
 
-                        <h2 className="font-extrabold justify-left text-xl md:text-xl pb-6 flex text-white">My Stack</h2>
+                        <h2 className="font-extrabold justify-left text-xl lg:text-2xl pb-6 flex text-white">My Stack</h2>
                         <div className="flex flex-wrap w-flex justify-start gap-4 mt-2">
 
                             <img src="https://skillicons.dev/icons?i=figma" />

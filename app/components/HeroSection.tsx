@@ -166,7 +166,7 @@ const HeroSection = () => {
 
                         <div className="hidden sm:flex w-[200px] h-[200px] lg:w-[400px] lg:h-[400px] md:w-[300px] md:h-[300px] relative">
 
-                            <div className="absolute sm:-translate-x-[100px] sm:-translate-y-[90px] md:-translate-x-[150px] md:-translate-y-[100px] lg:-translate-x-[200px] lg:-translate-y-[200px] sm:h-[450px] sm:w-[450px] md:h-[600px] md:w-[600px] lg:h-[900px] lg:w-[900px]">
+                            <div className="absolute sm:-translate-x-[100px] sm:-translate-y-[90px] md:-translate-x-[150px] md:-translate-y-[100px] lg:-translate-x-[300px] lg:-translate-y-[200px] sm:h-[450px] sm:w-[450px] md:h-[600px] md:w-[600px] lg:h-[900px] lg:w-[900px]">
 
                                 {renderCanvas && (
                                     <Canvas>

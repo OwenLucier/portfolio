@@ -5,5 +5,5 @@ type ContainerProps = PropsWithChildren & {
 }
 
 export const Container: React.FC<ContainerProps> = ({ children, classes }) => {
-  return <div className={`container mx-auto px-8 overflow-hidden ${classes}`}>{children}</div>
+  return <div className={`container mx-auto px-8 overflow-x-clip ${classes}`}>{children}</div>
 }
