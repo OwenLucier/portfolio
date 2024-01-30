@@ -195,7 +195,7 @@ const HeroSection = () => {
                             </div>
                             <Image
                                 src="/hero-image.png"
-                                alt="hero"
+                                alt="hero image"
                                 className="heroImage absolute transform -translate-x-3 translate-y-1 top-3 left-3 lg:w-[400px] lg:h-[400px] md:w-[300px] md:h-[300px]"
                                 width={800}
                                 height={800}
