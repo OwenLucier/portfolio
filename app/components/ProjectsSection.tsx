@@ -18,7 +18,7 @@ const projectData = [
     {
         id: 2,
         title: "Wilfrid Laurier Case Study",
-        description: `A joint-case study with Unreal Design Partners, a UX Design agency based in Toronto, Ontario. My team and I conducted a UX Research study on the Wilfrid Laurier University wellness services and proposed a new design solution. Our contributions awarded us 1st place against 5 other teams! `,
+        description: `A joint-case study with Unless Design Partners, a UX Design agency based in Kitchener, Ontario. My team and I conducted a UX Research study on the Wilfrid Laurier University wellness services and proposed a new design solution. Our contributions awarded us 1st place against 5 other teams! `,
         imgUrl: "/grd-cover.png",
         tags: ["UX Design", "UI Design", "Figma", "UX Research", "UX Strategy"],
         link: "/project-2"
