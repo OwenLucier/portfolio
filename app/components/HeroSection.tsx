@@ -26,7 +26,7 @@ const HeroSection = () => {
             <Container classes="pt-20 sm:pt-0">
                 <div className="flex sm:hidden w-[200px] h-[200px] relative mb-[100px]">
 
-                    <div className="absolute -translate-x-[70px] -translate-y-[90px] h-[450px] w-[450px]">
+                    <div className="absolute -translate-x-[60px] -translate-y-[90px] h-[450px] w-[450px]">
 
                         {renderCanvas && (
                             <Canvas>
