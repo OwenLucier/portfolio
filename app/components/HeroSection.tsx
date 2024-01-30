@@ -24,6 +24,7 @@ const HeroSection = () => {
     return (
         <section id="Hero" className="flex flex-col min-h-screen justify-center">
             <Container classes="pt-20 sm:pt-0">
+                
                 <div className="flex sm:hidden w-[200px] h-[200px] relative mb-[100px]">
 
                     <div className="absolute -translate-x-[60px] -translate-y-[90px] h-[450px] w-[450px]">
@@ -74,7 +75,7 @@ const HeroSection = () => {
                                 restDelta: 0.001
                             }
                         }}
-                        className="col-span-7 place-self-center text-center md:text-left ">
+                        className="col-span-7 z-40 place-self-center text-center md:text-left ">
 
                         <h1 className="text-white mb-6 text-4xl sm:text-4xl lg:text-6xl font-extrabold">
                             <span className="leading-normal text-transparent bg-clip-text bg-gradient-to-r from-emerald-500 to-emerald-700">
@@ -101,7 +102,8 @@ const HeroSection = () => {
                                 repeat={Infinity}
                             />
                         </h1>
-                        <p className="text-gray-300 text-base sm:text-lg lg:text-xl mb-6 sm:mr-8">{"Hello, My name is Owen and I\'m a UX Designer from Ontario, Canada! I am currently working as a UI Designer in the cyber-security industry building applications with a skilled team of developers."} </p>
+                        
+                        <p className="text-gray-300 text-base sm:text-lg lg:text-xl mb-6 sm:mr-8">{"Hello, My name is Owen and I\'m a UX Designer from Ontario, Canada! I am currently working as a UI Designer in the cyber-security industry building applications with a skilled team of developers. Follow me on my design journey!"} </p>
 
                         {/*
                         Animated contact me and download CV buttons
@@ -144,8 +146,11 @@ const HeroSection = () => {
                                         <FaLinkedin className="text-4xl" />
                                     </a>
                                 </motion.button>
-                            </div>
 
+
+
+                            </div>
+                           
 
                         </div>
                     </motion.div>
@@ -166,7 +171,7 @@ const HeroSection = () => {
 
                         <div className="hidden sm:flex w-[200px] h-[200px] lg:w-[400px] lg:h-[400px] md:w-[300px] md:h-[300px] relative">
 
-                            <div className="absolute sm:-translate-x-[100px] sm:-translate-y-[90px] md:-translate-x-[150px] md:-translate-y-[100px] lg:-translate-x-[300px] lg:-translate-y-[200px] sm:h-[450px] sm:w-[450px] md:h-[600px] md:w-[600px] lg:h-[900px] lg:w-[900px]">
+                            <div className="absolute z-0 sm:-translate-x-[100px] sm:-translate-y-[90px] md:-translate-x-[150px] md:-translate-y-[100px] lg:-translate-x-[300px] lg:-translate-y-[200px] sm:h-[450px] sm:w-[450px] md:h-[600px] md:w-[600px] lg:h-[900px] lg:w-[900px]">
 
                                 {renderCanvas && (
                                     <Canvas>

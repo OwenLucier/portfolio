@@ -3,7 +3,7 @@ import React from 'react'
 
 const FooterSection = () => {
   return (
-   <section className="min-h-screen">
+   <section className="min-h-[800px]">
        <Container>
         
               
