@@ -1,8 +1,4 @@
-import Link from 'next/link';
 import React from 'react'
-import { FaEye, FaCode } from "react-icons/fa6";
-import GlowingCard from './GlowingCard';
-import Image from 'next/image'
 import { FaArrowRightLong } from "react-icons/fa6";
 
 
