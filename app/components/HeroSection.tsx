@@ -52,7 +52,7 @@ const HeroSection = () => {
                     <Image
                         src="/hero-image.png"
                         alt="hero"
-                        className="absolute translate-x-[85px] translate-y-[50px]"
+                        className="absolute translate-x-[85px] translate-y-[50px] select-none pointer-events-none"
                         width={800}
                         height={800}
                     />
@@ -196,7 +196,7 @@ const HeroSection = () => {
                             <Image
                                 src="/hero-image.png"
                                 alt="hero image"
-                                className="heroImage absolute transform -translate-x-3 translate-y-1 top-3 left-3 lg:w-[400px] lg:h-[400px] md:w-[300px] md:h-[300px]"
+                                className="heroImage absolute transform -translate-x-3 translate-y-1 top-3 left-3 lg:w-[400px] lg:h-[400px] md:w-[300px] md:h-[300px] select-none pointer-events-none"
                                 width={800}
                                 height={800}
                             />
